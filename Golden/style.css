@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+/* HEADER */
+.intro{
+    width: 100%;
+    height: 700px;
+    background: url(img/Home/back-img.jpg);   
+    background-size: cover;
+}
+.header{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo a{
+    text-decoration: none;
+    color: #fed136;
+    font-size: 26px;
+    font-family: Wisdom Script;
+}
+.menu{
+    display: flex;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+.menu a{
+    font-size: 14px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu a:first-child{
+    margin-left: 0;
+}
+
+/* HOME */
+.home-inner{
+    margin-top: 200px;
+    text-align: center;
+}
+.home-inner h3{
+    font-family: Droid Serif;
+    font-size: 40px;
+    font-style: italic;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.home-inner h1{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 75px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.btn:hover{
+    color: #ffffff;
+    background-color: #f51b1b;
+}
+.home-inner a{
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #fed136;
+
+    padding: 25px 50px; 
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* SERVICES */
+.services{
+    margin: 110px 0px;
+}
+.serv-title{
+    text-align: center;
+}
+.serv-title h2{
+    text-transform: uppercase;
+    color: #222222;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 40px;
+}
+.serv-title h4{
+    margin-bottom: 70px;
+    margin-top: 15px;
+    font-style: italic;
+    color: #777777;
+    font-family: Droid Serif;
+    font-size: 16px;
+}
+.serv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.serv-item{
+    margin-left: 30px;
+}
+.serv-item:first-child{
+    margin-left: 0px;
+}
+.serv-item h2{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+    margin: 15px 0;
+}
+.serv-text{
+    font-family:  'Roboto Slab', serif;
+    font-size: 14px;
+    color: #777777;
+}
+
+/* PORTFOLIO */
+.portfolio{
+    background-color: #f7f7f7;
+}
+.ptf-title{
+    padding-top: 120px;
+    text-align: center;
+}
+.ptf-title h1{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.ptf-title h2{
+    font-family: Droid Serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #777777;
+}
+.ptf-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding-bottom: 70px;
+}
+.ptf-item{
+    width: 291px;
+    text-align: center;
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+.ptf-item:first-child{
+    margin-left: 0px;
+}
+.ptf-item-four{
+    margin-left: 0px;
+}
+.ptf-item-text {
+    background-color: #fff;
+    padding: 25px;
+
+}
+.ptf-item-text h2{
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #333333;
+}
+.ptf-item-text h3{
+    font-family: Droid Serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #777777;
+}
+
+/* ABOUT US */
+.about{
+    margin: 120px 0px;
+}
+.about-title{
+    text-align: center;
+}
+.about-title h1{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 40px;
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.about-title h2{
+    font-family: Droid Serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #777777;
+}
+.about-items{
+    margin-top: 80px;
+}
+.about-item{
+    display: flex;
+    margin-right: 383px;
+    margin-bottom: 85px;
+}
+.about-item:last-child{
+    margin-bottom: 0px; 
+}
+.about-item-right{
+    margin-right: 0;
+    margin-left: 383px;
+}
+.about-text h1{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.about-text h1,h2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+}
+.about-text p{
+
+    margin-top: 15px;
+    font-family:  'Roboto Slab', serif;
+    font-size: 14px;
+    color: #777777;
+}
+.about-text-right{
+    margin-right: 35px;
+    text-align: right;
+}
+.about-text-right p{
+    margin-left: 35px;
+}
+.about-text-left{
+    margin-left: 35px;
+    text-align: left;
+}
+.about-text-left p{
+    margin-right: 35px;
+}
+/* TEAM */
+.team{
+    padding: 120px 0px;
+    background-color: #f9f9f9;
+}
+.team-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.team-title h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #222222;
+    text-transform: uppercase;
+}
+.team-title h2{
+    font-family: Droid Serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #777777;
+}
+.team-items{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.team-item{
+    margin-left: 50px;
+}
+.team-item:first-child{
+    margin-left: 0px;
+}
+.team-item-text h1{
+    font-family: Montserrat;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.team-item-text h2{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 15px;
+}
+.team-text{
+    font-family:  'Roboto Slab';
+    text-align: center;
+    color: #777777;
+    margin: 0px 145px;
+}
+
+/* LOGOS */
+.logos{
+    margin: 60px 0px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    margin-left: 60px;
+}
+.logo:first-child{
+    margin-left: 0;
+}
+
+/* CONTACT */
+.contact{
+    background-image: url(img/Contact/map-img.jpg);
+    padding: 110px 0px 100px 0px;
+}
+.contact-title{
+    text-align: center;
+}
+.contact-title h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.contact-title h2{
+    font-family: Droid Serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #777777;
+}
+.forms{
+    display: flex;
+    margin-top: 80px;
+}
+.message-left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 15px;
+}
+.input{
+    width: 455px;
+    height: 50px;
+    border: 0px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+}
+.input:last-child{
+    margin-bottom: 0px;
+}
+.message-right{
+    margin-left: 15px;
+}
+.input-right{
+    width: 455px;
+    height: 211px;
+    border: 0px;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+}
+.btn-contact{
+    margin-top: 30px;
+    text-align: center;
+
+}
+.btn-contact a{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    padding: 25px 50px;
+
+    background-color: #fed136;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+.footer-items{
+    margin: 25px 375px 25px 0px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text{
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #777777;
+    font-weight: 500;
+}
