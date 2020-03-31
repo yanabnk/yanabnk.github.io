@@ -37,8 +37,6 @@ p{
     z-index: 1000;
 }
 .header.fixed{
-    /* height: auto; */
-
     position: fixed;
     background-color: #373736;
 }
@@ -142,7 +140,7 @@ p{
     color: #eef0e9;
     background-color: #2e0f05;
 }
-.btn--long{
+.btn-long{
     min-width: 280px;
 }
 
@@ -188,11 +186,11 @@ p{
     margin-bottom: 30px;
 
 }
-.works{
+.films{
     display: flex;
     flex-wrap: wrap;
 }
-.works-item{
+.films-item{
     width: 25%;
     height: 350px;
     position: relative;
@@ -200,10 +198,10 @@ p{
     border-bottom:1px #fff solid ;
     border-right:1px #fff solid ;
 }
-.works-item:hover .works-content{
+.films-item:hover .films-content{
     opacity: 1;
 }
-.works-foto{
+.films-foto{
     min-width: 100%;
     position: absolute;
     top: 50%;
@@ -211,7 +209,7 @@ p{
     z-index: 1;
     transform: translate3d(-50%, -50%,0); /* выравнивание картинки ровно по центру */
 }
-.works-content{
+.films-content{
     width: 100%;
     height: 100%;
     display: flex;
@@ -227,56 +225,56 @@ p{
     left: 0;
     z-index: 2;
 }
-.works-title{
+.films-title{
     font-size: 14px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
-.works-text{
+.films-text{
     font-size: 14px;
     color: #fff;
 }
 
 /* TEAM*/
-.team{
+.emotion{
     margin: 150px 0 100px;
 }
-.emotion{
+.emotion-title{
     font-size: 50px;
     margin-bottom: 30px;
     text-align: right;
 }
-.team-inner{
+.emotion-inner{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
 }
-.team-item{
+.emotion-item{
     width: 33.33333%;
     padding: 0 15px;
     margin-bottom: 30px;
 }
-.team-foto{
+.emotion-foto{
     display: block;
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
-.team-name{
+.emotion-name{
     font-size: 22px;
     color: #2d3033;
     margin-bottom: 8px;
 
 }
-.team-prof{
+.emotion-prof{
     flex: 13;
     color: #e84545;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
-.team-text{
+.emotion-text{
     font-size: 14px;
     color: #6c7279;
     line-height: 1.5;
@@ -371,18 +369,18 @@ p{
     opacity: 1;
 }
 
-/* DOWNLOAD */
-.download{
+/* PHRASE */
+.phrase{
     margin: 100px 0;
     text-align: center;
 }
-.download-title{
+.phrase-title{
     font-size: 40px;
     color: #2d3033;
     font-weight: 400;
     margin-bottom: 10px;
 }
-.download-text{
+.phrase-text{
     font-size: 20px;
     color: #2d3033;
     font-weight: 400;
@@ -539,7 +537,7 @@ p{
 
 @media (max-width:1300px){
     /* WORKS */
-    .works-item{
+    .films-item{
         width: 50%;
     }
 }
@@ -586,12 +584,12 @@ p{
     width: 50%;
 }
 
-/* TEAM */
-.team-item{
+/* emotion */
+.emotion-item{
     width: 50%;
     text-align: center;
 }
-.team-foto{
+.emotion-foto{
     margin-left: auto ;
     margin-right: auto;
 }
@@ -641,17 +639,17 @@ p{
     padding-right: 0;
     }
 
-    /* WORKS */
-    .works-item{
+    /* FILMS */
+    .films-item{
         width: 100%;
         height: 300px;
     }
 
-    /* TEAM */
-.team-item{
+    /* EMOTION */
+.emotion-item{
     width: 100%;
 }
-.team{
+.emotion{
     margin: 60px 0 30px;
 }
 /* REAVIEWS */
@@ -659,10 +657,10 @@ p{
     font-size: 25px;
 }
 /* BUTTON */
-.btn--long{
+.btn-long{
     min-width: 260px;
 }
-/* DOWNLOAD */
+/* PHRASE */
 .download{
     margin: 50px 0;
 }
