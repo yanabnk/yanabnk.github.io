@@ -138,10 +138,10 @@ p{
     transition: background .1s linear;
 
 }
-.btn--red{
+.btn-red{
      background-color: #491b0d; 
 }
-.btn--red:hover{
+.btn-red:hover{
     color: #eea2b6;
     background-color: #2e0f05;
 }
