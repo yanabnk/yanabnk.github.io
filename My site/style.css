@@ -2,8 +2,8 @@ body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    color: #6c7279;
-    background-color: #fff;
+    color: #6c7279; 
+    background-color: #fff; 
 }
 *,
 *:before,
@@ -37,6 +37,7 @@ p{
     top: 0; 
     left: 0;
     z-index: 1000;
+    background-color: #f7aec2;
 }
 .header.fixed{
     /* height: auto; */
@@ -628,11 +629,11 @@ p{
     width: 100%;
     margin-top: 15px;
     margin-bottom: 40px;
+    margin-right: 100px;
     overflow: hidden;
 }
 .reviews-content{
     width: 100%;
-    padding-left: 0;
     padding-bottom: 40px;
 }
 .reviews-img{
